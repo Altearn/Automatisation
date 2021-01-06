@@ -1,0 +1,803 @@
+
+give_action.mcfunction:
+  1 : "Avancer"
+  2 : "Avancer"
+  3 : "Reculer"
+  4 : "Reculer"
+  5 : "Horaire"
+  6 : "Horaire"
+  7 : "Antihoraire"
+  8 : "Antihoraire"
+  10 : "Déplacement Vers"
+  11 : "Déplacement Vers"
+  12 : "Déplacement Vers"
+  14 : "Bras"
+  15 : "Déplacement du Bras"
+  16 : "Déplacement du Bras"
+  17 : "Lacher l'Objet"
+  18 : "Lacher l'Objet"
+  19 : "Prendre l'Objet"
+  20 : "Prendre l'Objet"
+  21 : "Plier le Bras"
+  22 : "Plier le Bras"
+  23 : "Déplier le Bras"
+  24 : "Déplier le Bras"
+  26 : "Foreuse"
+  27 : "Allumer la Foreuse"
+  28 : "Allumer la Foreuse"
+  29 : "Analyser les fragments"
+  30 : "Analyser les fragments"
+  31 : "Eteindre la Foreuse"
+  32 : "Eteindre la Foreuse"
+  33 : "Déposé la Foreuse"
+  34 : "Déposé la Foreuse"
+  35 : "Récupérer la Foreuse"
+  36 : "Récupérer la Foreuse"
+  38 : "Scanner Topographique"
+  39 : "Tourné a 0°"
+  40 : "Tourné a 0°"
+  41 : "Tourné a 90°"
+  42 : "Tourné a 90°"
+  43 : "Tourné a 180°"
+  44 : "Tourné a 180°"
+  45 : "Tourné a 270°"
+  46 : "Tourné a 270°"
+  47 : "Allumer le Scanner"
+  48 : "Allumer le Scanner"
+  49 : "Eteindre le Scanner"
+  50 : "Eteindre le Scanner"
+  51 : "Tourné de 90°"
+  52 : "Tourné de 90°"
+  53 : "Tourné de -90°"
+  54 : "Tourné de -90°"
+  55 : "Tourné de 180°"
+  56 : "Tourné de 180°"
+  57 : "Lancé un Scan Topographique"
+  58 : "Lancé un Scan Topographique"
+  60 : "Rover"
+  61 : "Plier les Panneaux Solaire"
+  62 : "Plier les Panneaux Solaire"
+  63 : "Déplier les Panneaux Solaire"
+  64 : "Déplier les Panneaux Solaire"
+  65 : "Vérifier les Modules"
+  66 : "Vérifier les Modules"
+  70 : "Sinon"
+  71 : "Sinon"
+  74 : "Fin2"
+  75 : "Fin2"
+
+give_siege.mcfunction:
+  3 : "Siege r=0"
+  4 : "Siege r=90"
+  5 : "Siege r=180"
+  6 : "Siege r=270"
+
+main.mcfunction:
+  9 : "OH le joli badge, je vais le garder ça pourrait être utile."
+
+setup.mcfunction:
+  1 : "Rover Datapack "
+  1 : "[UNINSTALL]"
+  2 : "Rover Datapack "
+  2 : "[UNINSTALL]"
+  142 : "Mme Pesier"
+  143 : "M Cassagne"
+  145 : "M Dupont"
+  146 : "M Lussier"
+  147 : "M Corbin"
+  148 : "M Lesage"
+  149 : "M Gabriaux"
+  150 : "Mme Leblanc"
+  151 : "Mme Laux"
+  152 : "M Pinson"
+  153 : "M Grillaud"
+  154 : "Mme Duchesne"
+  155 : "Jack"
+  156 : "Steve"
+  158 : "M Duriff"
+  159 : "Mme Tachel"
+  160 : "Mme Chatigny"
+  161 : "M Lanoie"
+  162 : "M Granjean"
+  163 : "Mme Julie"
+  164 : "Greg"
+
+uninstall.mcfunction:
+  18 : "Uninstall successfully !"
+
+scenario\dialog.mcfunction:
+  22 : "Vous n'avez pas encore accès à cet endroit pour le moment."
+  37 : "Vous n'avez pas encore accès à cet endroit pour le moment."
+  38 : "Vous n'avez pas encore accès à cet endroit pour le moment."
+  64 : "Vous n'avez pas encore accès à cet endroit pour le moment."
+  69 : "Mme Pesier"
+
+scenario\step0.mcfunction:
+  12:  Bonjour monsieur, je suis le nouveau programmeur\u2026 J\u2019ai rendez-vous avec Madame Pesier pour mon premier
+  15:  vous attendions. Je la préviens de votre arrivée. Pouvez-vous patienter dans le petit salon sur votre droite
+  18 : " D\u2019accord, merci beaucoup."
+  21 : " Je vous en prie."
+
+scenario\step1.mcfunction:
+  17:  resterai avec vous cette première journée pour finaliser les démarches administratives vous concernant et vous
+  20 : " Enchanté Madame Pesier. Je vous suis."
+
+scenario\step10.mcfunction:
+  15:  responsable de la phase de test en laboratoire. Je vais vous accompagner lors de cette étape cruciale avant la procédure
+  18:  les vérifications sur le rover, il vous suffit de faire un clic droit sur l’ordinateur à votre gauche.
+  21 : " Merci beaucoup."
+
+scenario\step11.mcfunction:
+  40 : "Panneau Solaire"
+  41 : "Panneau Solaire"
+
+scenario\step12.mcfunction:
+  11 : "Veuillez attendre que M Duriff ai finis son inspection du rover."
+  25:  Bonjour, après une vérification des modules du rover, il semble que les pannneaux solaires soient manquant."
+  28 : " Bonjour, le rover n'est effectivement pas complètement assemblé."
+  31 : " Les panneaux solaires se trouvent dans les étagères à côté, je vous laisse les installer."
+
+scenario\step13.mcfunction:
+  19:  vous pensez que les panneaux solaires sont bien installé, je vous laisse retourner au pc pour relancer la
+
+scenario\step14.mcfunction:
+  38 : " Les modules sont tous présent, parfais. Je lance l'initialisation."
+  82 : "Bras de remplacement"
+
+scenario\step15.mcfunction:
+  11 : "Bras défectueux"
+  24 : " Je vais récupérer le bras défectueux si vous le voulez bien."
+
+scenario\step16.mcfunction:
+  28:  La procédure de test est terminé, je préviens Mme Pesier. Elle va surement vous contacter via votre tablette."
+
+scenario\step17.mcfunction:
+  12 : " Bien joué. Dorénavant, il faut programmer le rover avant de l’envoyer en mission."
+  15:  avez sur la tablette toutes les informations relatives aux objectifs que le rover doit remplir lors de
+  18:  devez donc développer un programme permettant au rover d’effectuer ces actions automatiquement, sans aide
+  21 : " Si vous avez des doutes sur les informations, n’hésitez pas à me contacter."
+  24 : " Je vais faire ça tout de suite, merci."
+  27 : " Nous sommes conscients de vos qualités. Ne nous décevez pas."
+
+scenario\step18.mcfunction:
+  14:  " Jolie travail, je suis ravie de voir que vos compétences nous ont permis de développer ce projet spatial."
+  17 : " Merci de m'avoir donné ma chance."
+  20:  J'envoie vos programmes aux informaticiens pour qu'ils finissent l'optimisation afin de les transférer sur
+  23 : " Je viens vous rejoindre dans la salle de contrôle pour assister au test définitif."
+
+scenario\step19.mcfunction:
+  91 : " A le rover sort du sas!"
+
+scenario\step2.mcfunction:
+  8:  allons commencer par signer votre contrat. Comme cela, nous profiterons pour vous montrer l\u2019espace administratif."
+  11:  l\u2019accueil, où vous avez croisé M. Cassagne qui vous a demandé de patienter dans un des petits salons
+  19:  suivantes sont des bureaux destinés à la gestion du bâtiment, notamment pour la facturation et la commande
+  22:  sur votre droite, vous trouverez la salle de réunion où nous serons souvent amenés à discuter sur le projet
+  25 : " À gauche, c\u2019est l'accès aux sanitaires..."
+  28 : " Et plus loin, c'est la salle de repos et de restauration."
+  31 : " Maintenant passons à l\u2019étage."
+
+scenario\step20.mcfunction:
+  8 : "Vous avez terminé la map"
+  9 : "Félicitation !"
+  12 : "Utilisez votre tablette"
+  13 : "Recommencer ?"
+
+scenario\step3.mcfunction:
+  13:  aurez votre bureau. Cet espace permet une meilleure communication et un réel travail en collaboration avec
+  16 : " Avez-vous des questions sur cette première partie ?"
+  19 : " Y a-t-il un document où les informations importantes sont listées ?"
+  22 : " Ah oui ! J\u2019allais oublier, tenez."
+  27:  vous servira pour pas mal de choses : prise de note, demande d\u2019assistance, communication avec vos collègues
+  32 : " Merci beaucoup."
+
+scenario\step4.mcfunction:
+  11 : " Bien, nous allons passer sur la partie laboratoire qui commence derrière l\u2019accueil."
+
+scenario\step5a.mcfunction:
+  13:  première partie est le vestiaire où vous devrez vous changer pour mettre une tenue adéquate avant d\u2019accéder
+
+scenario\step5b.mcfunction:
+  23 : " Bien, maintenant que vous êtes changé, on va pouvoir poursuivre la visite."
+
+scenario\step6.mcfunction:
+  13:  d'éliminer les poussières et petites particules qui pourraient altérer les actions menées dans les salles
+
+tablette\give.mcfunction:
+  1 : "__________"
+  5 : "\u2192 Assistance"
+  5 : "\u2192 Communications"
+  5 : "\u2192 Contrat"
+  5 : "\u2192 Taches"
+  5 : "\u2192 Besoin d'aide ?"
+  5 : "Vous devez signer votre contrat\navant de passer à la suite."
+  5 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  5 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  5:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  5:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  5:  cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nVeuillez signer
+  5 : "[\u2713]"
+  5 : "\n\n\n\n\n\n\n                          "
+  5 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+  6 : "\u2192 Assistance"
+  6 : "\u2192 Communications"
+  6 : "\u2192 Contrat"
+  6 : "\u2192 Taches"
+  6 : "\u2192 Besoin d'aide ?"
+  6 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  6 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  6:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  6:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  6:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  6 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+  7 : "\u2192 Assistance"
+  7 : "\u2192 Communications"
+  7 : "\u2192 Contrat"
+  7 : "\u2192 Taches"
+  7 : "\u2192 Besoin d'aide ?"
+  7 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  7 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  7:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  7:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  7:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  7 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+  8 : "\u2192 Assistance"
+  8 : "\u2192 Communications"
+  8 : "\u2192 Contrat"
+  8 : "\u2192 Taches"
+  8 : "\u2192 Besoin d'aide ?"
+  8 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  8 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  8:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  8:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  8:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  8 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+  9 : "\u2192 Assistance"
+  9 : "\u2192 Communications"
+  9 : "\u2192 Contrat"
+  9 : "\u2192 Taches"
+  9 : "\u2192 Besoin d'aide ?"
+  9 : "Commencer la procédure de test du rover,\nen allant au poste de programmation."
+  9 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  9 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  9:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  9:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  9:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  9 : " TACHES\n\n- Vérifier la connexion des modules du rover."
+  10 : "\u2192 Assistance"
+  10 : "\u2192 Communications"
+  10 : "\u2192 Contrat"
+  10 : "\u2192 Taches"
+  10 : "\u2192 Besoin d'aide ?"
+  10 : "Faites un \"
+  10 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  10 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  10:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  10:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  10:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  10:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  10 : " TACHES\n\n- Vérifier la connexion des modules du rover."
+  11 : "\u2192 Assistance"
+  11 : "\u2192 Communications"
+  11 : "\u2192 Contrat"
+  11 : "\u2192 Taches"
+  11 : "\u2192 Besoin d'aide ?"
+  11 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  11 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  11:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  11:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  11:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  11:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  11 : " TACHES\n\n- Vérifier la connexion des modules du rover."
+  12 : "\u2192 Assistance"
+  12 : "\u2192 Communications"
+  12 : "\u2192 Contrat"
+  12 : "\u2192 Taches"
+  12 : "\u2192 Besoin d'aide ?"
+  12 : "Prenez les panneaux solaire\npuis faites un \"
+  12 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  12 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  12:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  12:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  12:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  12:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  12 : " TACHES\n\n- Assembler les pannneaux solaire sur le rover."
+  13 : "\u2192 Assistance"
+  13 : "\u2192 Communications"
+  13 : "\u2192 Contrat"
+  13 : "\u2192 Taches"
+  13 : "\u2192 Besoin d'aide ?"
+  13 : "Retournez au pc pour poursuivre la vérification des modules."
+  13 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  13 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  13:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  13:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  13:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  13:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  13 : " TACHES\n\n- Vérifier la connexion des modules du rover."
+  14 : "\u2192 Assistance"
+  14 : "\u2192 Communications"
+  14 : "\u2192 Contrat"
+  14 : "\u2192 Taches"
+  14 : "\u2192 Besoin d'aide ?"
+  14 : "Faites d'abord un \"
+  14 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  14 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  14:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  14:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  14:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  14:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  14 : " TACHES\n\n- Remplacez le bras défectueux du rover."
+  15 : "\u2192 Assistance"
+  15 : "\u2192 Communications"
+  15 : "\u2192 Contrat"
+  15 : "\u2192 Taches"
+  15 : "\u2192 Besoin d'aide ?"
+  15 : "Retournez au pc pour poursuivre l'initialisation des modules."
+  15 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  15 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  15:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  15:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  15:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  15:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  15 : " TACHES\n\n- Vérifier la connexion des modules du rover."
+  16 : "\u2192 Assistance"
+  16 : "\u2192 Communications"
+  16 : "\u2192 Contrat"
+  16 : "\u2192 Taches"
+  16 : "\u2192 Besoin d'aide ?"
+  16 : "Activez la communication avec Mme Pesier à l'aide de la tablette."
+  16 : "<Mme Pesier>"
+  16 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  16:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  16:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  16:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  16:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  16 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+  17 : "\u2192 Assistance"
+  17 : "\u2192 Communications"
+  17 : "\u2192 Contrat"
+  17 : "\u2192 Taches"
+  17 : "\u2192 Besoin d'aide ?"
+  17 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  17 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  17:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  17:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  17:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  17:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  17 : " TACHES\n\n- Programmer les fonctions du rover"
+  18 : "\u2192 Assistance"
+  18 : "\u2192 Communications"
+  18 : "\u2192 Contrat"
+  18 : "\u2192 Taches"
+  18 : "\u2192 Besoin d'aide ?"
+  18 : "Rejoignez Mme Pesier au niveau de l'observatoire pour le test final."
+  18 : " COMMUNICATIONS\n\n\u260e Vous n'avez aucunes communications en cours."
+  18 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  18:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  18:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  18:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  18:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  18 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+  19 : "\u2192 Assistance"
+  19 : "\u2192 Communications"
+  19 : "\u2192 Contrat"
+  19 : "\u2192 Taches"
+  19 : "\u2192 Besoin d'aide ?"
+  19 : "<Inconnu>"
+  19 : " tente de vous joindre..."
+  19 : " CONTRAT\n\nPar les présents termes de l'accord, je sous-signé "
+  19:  revente de mes données, ainsi que l'accès, sans limite, à l'intégralité de ma vie privé.\n\n\n
+  19:  sera immédiatement puni par la supression d'un membre de votre famille et/ou de votre personne. \u0020
+  19:  "En cas de décès, tout héritage de votre part reviendra automatiquement à notre société.\n\nSignature
+  19:  "\n\n\n\n\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020
+  19 : " TACHES\n\n- Vous n'avez aucunes taches pour le moment."
+
+.mcfunction:
+  47 : "Une boucle n'a pas de bloc de fin !"
+  51 : "Une fonction SI n'a pas de bloc de fin !"
+  55 : "Il y a plusieur SINON dans une fonction SI !"
+  59 : "Boucle infini détecté !"
+  61 : "La condition \"
+  63 : "Boucle infini détecté dans une condition du SI !"
+
+prog\read\complete_prog.mcfunction:
+  3 : "Les Modules n'ont pas été vérifié."
+  4 : "Les panneaux solaires n'ont pas été déplié."
+  5 : "Certains mouvements du rover n'ont pas été testé."
+  6 : "Les panneaux solaires ne sont pas déplié."
+  16 : "Le scanner n'a pas été allumé."
+  17 : "Le scanner n'a pas été éteint."
+  18 : "Le scan n'est pas complet."
+  29 : "La pince a été fermé alors qu'elle était déjà fermé."
+  30 : "La pince a été ouverte alors qu'elle était déjà ouverte."
+  31 : "Le bras a été replié alors qu'il était déjà replié."
+  32 : "Le bras a été déplié alors qu'il était déjà déplié."
+  34 : "Le bras n'a pas été déplié."
+  35 : "Le bras n'a pas été déplacé vers la roche"
+  36 : "La pince n'a pas été ouverte"
+  37 : "La roche n'a pas été ramassé"
+  38 : "Le bras n'a pas été déplacé vers le stockage du rover"
+  39 : "Le bras n'a pas laché la roche dans le rover"
+  40 : "Le bras n'a pas été replié"
+  50 : "La foreuse n'a pas été posé."
+  51 : "La foreuse n'a pas éffectué sa tâche."
+  52 : "La foreuse n'a pas été remonté."
+  53 : "La foreuse n'a pas été éteinte."
+  54 : "Aucunes conditions ne détectent la fin du forage."
+  55 : "Le forage n'a pas été analysé."
+  56 : "L'analyse doit se faire après le forage, mais avant de remonter la foreuse."
+  66 : "Votre fonction ne sera pas répété."
+  67 : "Il n'y a aucunes détection d'obstacles."
+  68:  "→ Il n'y a pas de fonction pour éviter les obstacles.\n→ La fonction pour éviter les obstacles est mal
+  69 : "Votre rover ne peux pas se diriger vers sa destination."
+  70 : "Il n'y a aucunes détection d'arriver à destination."
+  71 : "Les éléments de résolution de la fonction sont présents, mais la fonction n'est pas correct !"
+  81 : "Votre rover doit dabord tester ses modules après l'attérissage"
+  82 : "Votre rover doit scanner l'environnement avant d'aller récupérer des échantillons"
+  84 : "Le rover doit se rendre au point d'analyse avant toute autres actions 2"
+  85 : "Le rover doit se rendre au point d'analyse avant toute autres actions 4"
+  86 : "Le rover doit se rendre au point d'analyse avant toute autres actions 6"
+  89:  test de type de sol.\n→ La fonction qui est retourné n'est pas la bonne, par rapport à la condition.\n→
+  90:  test de type de sol.\n→ La fonction qui est retourné n'est pas la bonne, par rapport à la condition.\n→
+  91:  test de type de sol.\n→ La fonction qui est retourné n'est pas la bonne, par rapport à la condition.\n→
+  94 : "Votre rover doit aller aux 3 zones d'analyse."
+  96 : "Votre rover doit aller vers la zone d'extraction."
+
+prog\read\convert_item.mcfunction:
+  1 : "FIN SI"
+
+prog\read\flow_if.mcfunction:
+  14 : "FIN SI 1"
+  37 : "FIN SI 0"
+
+prog\read\flow_loop.mcfunction:
+  3 : "DÉBUT BOUCLE"
+  40 : "FIN BOUCLE"
+  41 : "SORTIE BOUCLE"
+
+prog\read\if_conditions.mcfunction:
+  9 : "SI : SOL DUR"
+  13 : "SI : SOL MOU"
+  21 : "SI : ROVER ARRIVÉ A DESTINATION"
+  36 : "SI : BRAS PLIÉ"
+  42 : "SI : OBSTACLE"
+  53 : "SI : FOREUSE A FINIS"
+  67 : "TRUE"
+  69 : "FALSE"
+
+prog\read\read_slot.mcfunction:
+  38 : "\nDÉBUT LECTURE"
+  39 : "ON"
+  40 : "OFF"
+  70 : "FIN LECTURE\n"
+  72 : "La limite d'itérations de la boucle à été atteinte.\nLa simulation à été arrêté !\n"
+
+prog\read\rover_actions.mcfunction:
+  4 : "Rotation horaire"
+  5 : "Rotation antihoraire"
+  7 : "Deplacement vers Site d'Extraction"
+  8 : "Deplacement vers Zone d'analyse 1"
+  9 : "Deplacement vers Zone d'analyse 2"
+  10 : "Deplacement vers Zone d'analyse 3"
+  11 : "Deplacement vers Point d'atterrissage"
+  12 : "Deplacement vers Point de destination"
+  16 : "Bras:Déplacer vers roche"
+  17 : "Bras:Déplacer vers stockage"
+  18 : "Bras:Ouvrir"
+  19 : "Bras:Prendre"
+  20 : "Bras:Replié"
+  21 : "Bras:Déplier"
+  24 : "Foreuse:Allumer"
+  25 : "Foreuse:Analyser"
+  26 : "Foreuse:Eteindre"
+  27 : "Foreuse:Poser"
+  28 : "Foreuse:Ramasser"
+  29 : "Foreuse:Creuser"
+  32 : "Scanner:Set0"
+  35 : "Scanner:Set90"
+  38 : "Scanner:Set180"
+  41 : "Scanner:Set270"
+  44 : "Scanner:Allumer"
+  45 : "Scanner:Eteindre"
+  47 : "Scanner:Rotate90"
+  50 : "Scanner:Rotate-90"
+  53 : "Scanner:Rotate180"
+  56 : "Scanner:lancer le scan"
+  59 : "Rover:Rentrer les panneaux solaire"
+  60 : "Rover:Sortir les panneaux solaire"
+  61 : "Rover:Verifier les modules"
+  64 : "Atterrissage"
+  65 : "Scan 360"
+  66 : "Contourner"
+  67 : "Ramasser"
+  68 : "Analyser"
+
+scenario\animations\record_loop_motion.mcfunction:
+  17 : "Record Animation[7] in progress..."
+  20 : "End recording!"
+
+scenario\animations\record_motion.mcfunction:
+  17 : "Record Animation[14] in progress..."
+
+prog\inventory\inv\aller.mcfunction:
+  2 : "Avancer le rover de 1 unité."
+  3 : "Reculer le rover de 1 unité."
+  4 : "Rotation Horaire"
+  4 : "Rotation du rover vers "
+  4 : "la droite de 90°."
+  5 : "Rotation Antihoraire"
+  5 : "Rotation du rover vers "
+  5 : "la gauche de 90°."
+  6 : "Déplacement Vers"
+  6 : "Dossier, Fonctions de déplacements"
+  6 : "complexes."
+  8 : "Rover"
+  8 : "Dossier, Fonctions concernant le"
+  8 : " rover."
+  9 : "Bras"
+  9 : "Dossier, Fonctions concernant le bras"
+  9 : " robotique."
+  10 : "Scanner Topographique"
+  10 : "Dossier, Fonctions concernant le scanner"
+  10 : " topographique."
+  11 : "Foreuse"
+  11 : "Dossier, Fonctions concernant la"
+  11 : " foreuse."
+  13 : "Dossier pour les fonctions "
+  14 : "Sinon"
+  14 : "Fonction sinon, doit être placé dans une fonction "
+  15 : ". Exécuter un"
+  15 : "certain nombre d'actions entre la"
+  15 : " et la fonction "
+  15 : "Le nombre d’actions dépend du"
+  15 : "nombre de fonctions "
+  15 : "Si le nombre de fonctions "
+  15 : " n’est pas établi, elle se"
+  15 : "répète à l’infini."
+  15 : "Pour arrêter une fonction "
+  15 : "il faut une fonction "
+  16 : "Sortie de Boucle"
+  16 : "Fin d’une "
+  17 : " ou une"
+  18 : "Dossier, précédemment développer."
+  22 : "C'est une fonction générale, vous devez vous rendre"
+  22 : "destination"
+  22 : " mais attention aux obstacles."
+  23 : "Valider / Sauvegarder"
+  23 : "Menu pour "
+  23 : "votre fonction."
+  24 : "Permets de retourner au menu "
+
+prog\inventory\inv\annalyse.mcfunction:
+  22 : "Vous êtes sur un sol mou."
+  22 : "Creusez grâce à la foreuse, analysez,"
+  22 : "puis récupérez la foreuse."
+
+prog\inventory\inv\atterrissage.mcfunction:
+  22 : "Cette fonction sera la première exécutée à l'atterrissage."
+  22 : "Vous devez dans l'ordre vérifier les modules, déplier"
+  22 : "les panneaux solaires et effectuer les 4 mouvements de base."
+
+prog\inventory\inv\esquive.mcfunction:
+  22 : "Vous êtes le triangle bleu et vous devez"
+  22 : "rejoindre le triangle vert."
+  22 : "La pointe du triangle symbolise l'avant"
+  22 : "du rover, celui-ci doit donc être dans"
+  22 : "la bonne orientation à l'arrivée."
+  22 : "La zone grise foncé est un obstacle à éviter."
+  22 : "A vous de le déplacer comme il le faut."
+
+prog\inventory\inv\folder_bras.mcfunction:
+  2 : "Déplier le Bras"
+  3 : "Plier le Bras et ranger la pince"
+  4 : "Ramasser la Roche"
+  5 : "Ouvrir la pince"
+  6 : "Déplacement du Bras vers la Roche"
+  7 : "Déplacement du Bras vers le Stockage du Rover"
+
+prog\inventory\inv\folder_deplacement.mcfunction:
+  2 : "Déplacement Vers Site d'Extraction"
+  2 : "Les déplacements sont des fonctions"
+  2 : "qui évitent déjà les obstacles."
+  2 : "Elles finissent quand la destination"
+  2 : "est atteinte."
+  3 : "Déplacement Vers Zone d'analyse 1"
+  3 : "Les déplacements sont des fonctions"
+  3 : "qui évitent déjà les obstacles."
+  3 : "Elles finissent quand la destination"
+  3 : "est atteinte."
+  4 : "Déplacement Vers Zone d'analyse 2"
+  4 : "Les déplacements sont des fonctions"
+  4 : "qui évitent déjà les obstacles."
+  4 : "Elles finissent quand la destination"
+  4 : "est atteinte."
+  5 : "Déplacement Vers Zone d'analyse 3"
+  5 : "Les déplacements sont des fonctions"
+  5 : "qui évitent déjà les obstacles."
+  5 : "Elles finissent quand la destination"
+  5 : "est atteinte."
+  6 : "Déplacement Vers Point D'atterrissage"
+  6 : "Les déplacements sont des fonctions"
+  6 : "qui évitent déjà les obstacles."
+  6 : "Elles finissent quand la destination"
+  6 : "est atteinte."
+  8 : "Déplacement Vers Destination"
+  8 : "Cela déplace de 1 unité le rover"
+  8 : "vers sa destination."
+
+prog\inventory\inv\folder_foreuse.mcfunction:
+  2 : "Allumer la Foreuse"
+  3 : "Eteindre la Foreuse"
+  4 : "Déposé la Foreuse"
+  5 : "Récupérer la Foreuse"
+  6 : "Creuser"
+  6 : "Cette action a besoin d'une "
+  6 : "pour fonctionner."
+  7 : "Analyser les fragments"
+
+prog\inventory\inv\folder_function.mcfunction:
+  2 : "Function Atterrissage"
+  2 : "Fonction que vous avez précédemment"
+  2 : "développée."
+  3 : "Function Scan 360"
+  3 : "Fonction que vous avez précédemment"
+  3 : "développée."
+  4 : "Function Contourner"
+  4 : "Fonction développée par nos"
+  4 : "informaticiens qui contourne un"
+  4 : "obstacle de manière intelligente."
+  5 : "Function Contourner"
+  5 : "Fonction développée par nos"
+  5 : "informaticiens qui contourne un"
+  5 : "obstacle de manière intelligente."
+  6 : "Function Ramasser"
+  6 : "Fonction que vous avez précédemment"
+  6 : "développée."
+  7 : "Function Analyser"
+  7 : "Fonction que vous avez précédemment"
+  7 : "développée."
+
+prog\inventory\inv\folder_rover.mcfunction:
+  2 : "Déplier les Panneaux Solaire"
+  3 : "Plier les Panneaux Solaire"
+  4 : "Vérifier les Modules"
+
+prog\inventory\inv\folder_scanner.mcfunction:
+  2 : "Lancé un Scan Topographique"
+  3 : "Allumer le Scanner"
+  4 : "Eteindre le Scanner"
+  5 : "Tourné de 90°"
+  5 : "Incrémente l'angle du scanner de 90°."
+  6 : "Tourné de -90°"
+  6 : "Décrémente l'angle du scanner de 90°."
+  7 : "Tourné de 180°"
+  7 : "Incrémente l'angle du scanner de 180°."
+  8 : "Tourné à 0"
+  8 : "Positionne la caméra à 0°."
+  9 : "Tourné à 90°"
+  9 : "Positionne la caméra à 90°."
+  10 : "Tourné à 180°"
+  10 : "Positionne la caméra à 180°."
+  11 : "Tourné à 270°"
+  11 : "Positionne la caméra à 270°."
+
+prog\inventory\inv\folder_si.mcfunction:
+  2 : "Si Sol Dur"
+  3 : "Si Sol Mou"
+  4 : "Si Rover arriver à Destination"
+  5 : "Si Obstacle"
+  6 : "Si Foreuse à Fini"
+
+prog\inventory\inv\main.mcfunction:
+  22 : "Fonction Principal"
+  22 : "Ceci est la fonction mère de votre rover."
+  22 : "Voici le plan de la mission."
+  22 : "Se rendre aux trois zones d'analyse"
+  22 : "  (selon le type de sol ramasser de la roche ou forer le sol)"
+  22 : "Se diriger vers le site d'extraction"
+
+prog\inventory\inv\quitter.mcfunction:
+  2 : "Oui je veux Quitter "
+  3 : "Retourner à la programmation."
+
+prog\inventory\inv\ramasse.mcfunction:
+  22 : "Le rover est à côté d'une roche, votre but la ramasser"
+  22 : "et la ranger dans le compartiment du rover."
+
+prog\inventory\inv\scan.mcfunction:
+  22 : "Le rover va devoir faire un scan tout autour de lui."
+  22 : "Le scanner topographique a un champ de vision de 90°."
+
+prog\inventory\inv\tuto.mcfunction:
+
+prog\inventory\inv\valider.mcfunction:
+  2 : "Vérifier la Function"
+  2 : "Simule votre fonction et indique les erreurs."
+  3 : "Sauvegarder et Quitter"
+  3 : "Sauvegarde votre fonction et va au menu."
+  4 : "Retourner à la programmation."
+
+prog\inventory\storage\menu.mcfunction:
+  9 : "Fonction Atterrissage"
+  9 : "Cette fonction sera la première exécutée à l'atterrissage."
+  9 : "Vous devez dans l'ordre vérifier les modules, déplier"
+  9 : "les panneaux solaires et effectuer les 4 mouvements de base."
+  11 : "Fonction Scan 360"
+  11 : "Le rover va devoir faire un scan tout autour de lui."
+  11 : "Le scanner topographique a un champ de vision de 90°."
+  12 : "Fonction Scan 360"
+  12 : "Le rover va devoir faire un scan tous autour de lui."
+  12 : "Le scanneur topographique a un champ de vision de 90°."
+  14 : "Fonction Contourner"
+  14 : "Vous êtes le triangle bleu et vous devez"
+  14 : "rejoindre le triangle vert."
+  14 : "La pointe du triangle symbolise l'avant"
+  14 : "du rover, celui-ci doit donc être dans"
+  14 : "la bonne orientation à l'arrivée."
+  14 : "La zone grise foncé est un obstacle à éviter."
+  14 : "A vous de le déplacer comme il le faut."
+  15 : "Fonction Contourner"
+  15 : "Vous êtes le triangle bleu et vous devez"
+  15 : "rejoindre le triangle vert."
+  15 : "La pointe du triangle symbolise l'avant"
+  15 : "du rover, celui-ci doit donc être dans"
+  15 : "la bonne orientation à l'arrivée."
+  15 : "La zone grise foncé est un obstacle à éviter."
+  15 : "A vous de le déplacer comme il le faut."
+  17 : "Fonction Ramasser"
+  17 : "Le rover est à côté d'une roche, votre but la ramasser"
+  17 : "et la ranger dans le compartiment du rover."
+  18 : "Fonction Ramasser"
+  18 : "Le rover est à côté d'une roche, votre but la ramasser"
+  18 : "et la ranger dans le compartiment du rover."
+  20 : "Fonction Analyser"
+  20 : "Vous êtes sur un sol mou."
+  20 : "Creusez grâce à la foreuse, analysez,"
+  20 : "puis récupérez la foreuse."
+  21 : "Fonction Analyser"
+  21 : "Vous êtes sur un sol mou."
+  21 : "Creusez grâce à la foreuse, analysez,"
+  21 : "puis récupérez la foreuse."
+  23 : "Fonction Aller à"
+  23 : "C'est une fonction générale, vous devez vous rendre"
+  23 : "destination"
+  23 : " mais attention aux obstacles."
+  24 : "Fonction Aller à"
+  24 : "C'est une fonction générale, vous devez vous rendre"
+  24 : "destination"
+  24 : " mais attention aux obstacles."
+  26 : "Fonction Principal"
+  26 : "Ceci est la fonction mère de votre rover."
+  26 : "Voici le plan de la mission."
+  26 : "Se rendre aux trois zones d'analyse"
+  26 : "  (selon le type de sol ramasser de la roche ou forer le sol)"
+  26 : "Se diriger vers le site d'extraction"
+  27 : "Fonction Principal"
+  27 : "Ceci est la fonction mère de votre rover."
+  27 : "Voici le plan de la mission."
+  27 : "Se rendre aux trois zones d'analyse"
+  27 : "  (selon le type de sol ramasser de la roche ou forer le sol)"
+  27 : "Se diriger vers le site d'extraction"
+
+scenario\step7.mcfunction:
+  13 : " Ici nous nous trouvons dans la salle de contrôle."
+  16 : " Elle permet de gérer le Rover et de traiter toutes les informations envoyées par celui-ci."
+  19:  toutes les données, nous avons besoin de grosses ressources électriques et informatiques que vous pouvez
+
+scenario\step8.mcfunction:
+  13:  trouve le dôme de simulation où est reproduit une partie du sol martien, l\u2019environnement de test pour
+
+scenario\step9.mcfunction:
+  13 : " Enfin, vous avez ici la vue sur la salle d\u2019assemblage du rover."
+  16:  Il est assemblé et programmé dans cette salle hermétique et totalement vidée de toutes particules ou poussières."
+  19 : " L\u2019assemblage est contrôlé de manière semi-automatique via le poste de programmation en dessous."
+  22 : " C\u2019est dans celui-ci que vous allez commencer à appréhender le Rover."
+  25:  "dark_green"},{"text":" Après ce tour de présentations, avez-vous des questions supplémentaires à propos du laboratoire
+  28:  "red"},{"text":" Si j\u2019ai des doutes ou des questions concernant ma mission, comment puis-je avoir de l\u2019aide
+  31 : " Comme je vous l\u2019ai dit, n'hésitez pas à utiliser votre tablette."
+  34 : " Ah oui c\u2019est vrai !"
+  37 : " Vous pouvez commencer par effectuer les vérifications des différents modules du Rover."
+  40:  D\u2019ailleurs, si vous avez besoin d\u2019agir physiquement sur celui-ci, il y a un sas dans le poste de programmation."
+  43:  instructions concernant son utilisation sont aussi enregistrées dans votre tablette. Je vous laisse, je retourne
+  47 : " Merci à tout à l\u2019heure."

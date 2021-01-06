@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:'Daminator4113'}"
+		},
+		"title": "Template Datapacks",
+		"frame": "challenge",
+		"description": ["",{"text":"Template Datapack Successfully loaded!","color":"green"}],
+		"background": "minecraft:textures/block/spruce_planks.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
